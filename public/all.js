@@ -295,7 +295,7 @@ if (window.Portfolio === undefined) {
             { className: "section-margin-top" },
             React.createElement(
               "h1",
-              null,
+              { className: "space" },
               "David Kurth"
             ),
             React.createElement(
@@ -306,17 +306,17 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "h2",
               null,
-              "github: dkhobbes"
-            ),
-            React.createElement(
-              "h2",
-              null,
-              "portfolio: davidjkurth.com"
-            ),
-            React.createElement(
-              "h2",
-              null,
               "Email: kurthjdavid@gmail.com"
+            ),
+            React.createElement(
+              "h2",
+              null,
+              "Portfolio: davidjkurth.com"
+            ),
+            React.createElement(
+              "h2",
+              null,
+              "Github: dkhobbes"
             ),
             React.createElement(
               "h2",
@@ -372,7 +372,7 @@ if (window.Portfolio === undefined) {
               { className: "job" },
               React.createElement(
                 "h1",
-                null,
+                { className: "edu-bold" },
                 "The Iron Yard"
               ),
               React.createElement(
@@ -416,7 +416,7 @@ if (window.Portfolio === undefined) {
               ),
               React.createElement(
                 "h2",
-                null,
+                { className: "edu-bold" },
                 "Key Project:"
               ),
               React.createElement(
@@ -435,7 +435,7 @@ if (window.Portfolio === undefined) {
               { className: "job" },
               React.createElement(
                 "h1",
-                null,
+                { className: "edu-bold bump-down" },
                 "Pinnacle Group"
               ),
               React.createElement(
@@ -523,7 +523,7 @@ if (window.Portfolio === undefined) {
               { className: "school" },
               React.createElement(
                 "h2",
-                null,
+                { className: "edu-bold" },
                 "The Iron Yard"
               ),
               React.createElement(
@@ -537,7 +537,7 @@ if (window.Portfolio === undefined) {
               { className: "school" },
               React.createElement(
                 "h2",
-                null,
+                { className: "edu-bold" },
                 "University of North Texas"
               ),
               React.createElement(

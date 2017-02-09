@@ -14,11 +14,11 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
        <div className="nav-tab"><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
       </header>
       <section className="section-margin-top">
-        <h1>David Kurth</h1>
+        <h1 className="space">David Kurth</h1>
         <h2>Front-End Developer</h2>
-        <h2>github: dkhobbes</h2>
-        <h2>portfolio: davidjkurth.com</h2>
         <h2>Email: kurthjdavid@gmail.com</h2>
+        <h2>Portfolio: davidjkurth.com</h2>
+        <h2>Github: dkhobbes</h2>
         <h2>817-504-6207</h2>
       <div className="ending-bar"></div>
       </section>
@@ -35,7 +35,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
       <section className="section-margin">
         <h1 className="space">Work History</h1>
         <div className="job">
-          <h1>The Iron Yard</h1>
+          <h1 className="edu-bold">The Iron Yard</h1>
           <h2>October 2016-February 2017</h2>
           <h2>Front-End Developer</h2>
           <ul className="lists">
@@ -48,7 +48,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
             </li>
             <li>Utilized GitHub, Terminal, Gulp, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design in applications.</li>
           </ul>
-          <h2>Key Project:</h2>
+          <h2 className="edu-bold">Key Project:</h2>
           <p>beer-me-finder - In this project technical skills were utilized to build a web application that pulled a brewery api and google maps api to showcase the breweries near the user, as well as, showing the beers at the breweries by IBU and ABV levels.
           </p>
           <p>Tools: HTML5, CSS3, Javascript, React.JS, Sass, Express, Node.JS, Gulp
@@ -56,7 +56,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
 
         </div>
         <div className="job">
-          <h1>Pinnacle Group</h1>
+          <h1 className="edu-bold bump-down">Pinnacle Group</h1>
           <h2>May 2011-Oct 2016</h2>
           <h2>Technical Recruiter/Delivery Manager</h2>
           <ul className="lists">
@@ -88,11 +88,11 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
       <section className="section-margin">
         <h1 className="space">Education</h1>
           <div className="school">
-          <h2>The Iron Yard</h2>
+          <h2 className="edu-bold">The Iron Yard</h2>
           <h2>Coding Boot Camp - Front-End Development</h2>
           </div>
           <div className="school">
-          <h2>University of North Texas</h2>
+          <h2 className="edu-bold">University of North Texas</h2>
           <h2>Bachelor of Arts in Advertising</h2>
           </div>
         <div className="ending-bar"></div>

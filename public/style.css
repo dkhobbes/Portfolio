@@ -62,6 +62,7 @@ header div:hover {
 
 #name-holder {
   margin-top: 60px;
+  line-height: normal;
   font-size: 140px;
   font-family: 'Monoton', cursive;
   text-align: center;
@@ -155,7 +156,8 @@ a:visited {
   margin: 0 auto; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.3em; }
 
 footer {
   height: 70px;
@@ -185,5 +187,13 @@ footer img {
   margin-left: 35px;
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.edu-bold {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px; }
+
+.bump-down {
+  margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
