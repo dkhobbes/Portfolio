@@ -213,17 +213,27 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "h2",
               null,
-              "github:"
+              "Front-End Developer"
             ),
             React.createElement(
               "h2",
               null,
-              "portfolio:"
+              "github: dkhobbes"
             ),
             React.createElement(
               "h2",
               null,
-              "linkedIn:"
+              "portfolio: davidjkurth.com"
+            ),
+            React.createElement(
+              "h2",
+              null,
+              "Email: kurthjdavid@gmail.com"
+            ),
+            React.createElement(
+              "h2",
+              null,
+              "817-504-6207"
             ),
             React.createElement("div", { className: "ending-bar" })
           ),
@@ -235,6 +245,30 @@ if (window.Portfolio === undefined) {
               null,
               "Summary of Qualifications"
             ),
+            React.createElement(
+              "ul",
+              null,
+              React.createElement(
+                "li",
+                null,
+                "A conscientious, fast learner offering the ability to assess an organization\u2019s needs and create a strong web presence."
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Strong ability to improvise and think creatively towards technical problems."
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Experienced with communicating to all levels of management and team members."
+              ),
+              React.createElement(
+                "li",
+                null,
+                "Passionate about learning on a daily basis and an avid reader on IT standards and methods."
+              )
+            ),
             React.createElement("div", { className: "ending-bar" })
           ),
           React.createElement(
@@ -243,7 +277,148 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "h1",
               null,
-              "Work Experience"
+              "Work History"
+            ),
+            React.createElement(
+              "div",
+              { className: "job" },
+              React.createElement(
+                "h1",
+                null,
+                "The Iron Yard"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "October 2016-February 2017"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Front-End Developer"
+              ),
+              React.createElement(
+                "ul",
+                null,
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked at the coding boot camp to learn the foundation of front-end development including: HTML5, CSS3, JavaScript and React."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies.\xA0"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Utilized Trello to organize and prioritize projects in a collaborative team environment."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked within groups of different expertise and experiences to learn how to approach problems from multiple angles."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Utilized GitHub, Terminal, Gulp, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design in applications."
+                )
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Key Project:"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "beer-me-finder - In this project technical skills were utilized to build a web application that pulled a brewery api and google maps api to showcase the breweries near the user, as well as, showing the beers at the breweries by IBU and ABV levels."
+              ),
+              React.createElement(
+                "p",
+                null,
+                "Tools: HTML5, CSS3, Javascript, React.JS, Sass, Express, Node.JS, Gulp"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "job" },
+              React.createElement(
+                "h1",
+                null,
+                "Pinnacle Group"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "May 2011-Oct 2016"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Technical Recruiter/Delivery Manager"
+              ),
+              React.createElement(
+                "ul",
+                null,
+                React.createElement(
+                  "li",
+                  null,
+                  "Primary responsibilities included identifying, securing and directing consulting resources to implement client strategies. "
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Brought in over $715,383 in GM and over $5,543,457 in revenue throughout tenure."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Led a team of onshore and offshore recruiters to meet performance recruiting goals."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Responsible for program compliance, quality control, client meetings and SLA."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Identified qualified IT candidates to provide a continuous flow of quality profiles into the internal database and to effectively build a pipeline of candidates for technical skill sets nationwide."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Utilized developed candidate pipelines to support client needs and assist with coverage on strategic accounts including Fortune 500 banking clients and healthcare companies."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Sourced candidates for assigned requirements through the internal database, external job boards and additional resources."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked with and directly assisted Account Executive on all aspects of recruiting and Delivery Management"
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Developed and implemented successful recruiting methods to maintain a sustainable profit, while also creating strategies to manage multiple accounts."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Experienced with multiple applicant tracking systems."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked with Boolean, creative searching abilities and other internet recruiting tactics on a daily basis."
+                )
+              )
             ),
             React.createElement("div", { className: "ending-bar" })
           ),
@@ -254,6 +429,34 @@ if (window.Portfolio === undefined) {
               "h1",
               null,
               "Education"
+            ),
+            React.createElement(
+              "div",
+              { className: "school" },
+              React.createElement(
+                "h2",
+                null,
+                "The Iron Yard"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Coding Boot Camp - Front-End Development"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "school" },
+              React.createElement(
+                "h2",
+                null,
+                "University of North Texas"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Bachelor of Arts in Advertising"
+              )
             ),
             React.createElement("div", { className: "ending-bar" })
           ),
