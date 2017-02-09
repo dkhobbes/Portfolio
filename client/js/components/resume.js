@@ -32,7 +32,10 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
         <h1>Education</h1>
         <div className="ending-bar"></div>
        </section>
-       <footer></footer>
+       <footer>
+       <img src="images/dkurth-portfolio-social-github.png" />
+       <img src="images/dkurth-portfolio-social-linkedin.png" />
+       </footer>
      </div>
     }
   }

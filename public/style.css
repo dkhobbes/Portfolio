@@ -155,4 +155,11 @@ footer {
   height: 100px;
   background-color: #003264; }
 
+footer img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  background-color: white;
+  margin: 10px; }
+
 /*# sourceMappingURL=style.css.map */

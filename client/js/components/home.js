@@ -40,7 +40,10 @@ class HomeComponent extends React.Component {
       </div>
       <div className="ending-bar"></div>
     </section>
-    <footer></footer>
+    <footer>
+    <img src="images/dkurth-portfolio-social-github.png" />
+    <img src="images/dkurth-portfolio-social-linkedin.png" />
+    </footer>
     </div>
   }
 }

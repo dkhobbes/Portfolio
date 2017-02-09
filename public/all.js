@@ -135,7 +135,12 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement("div", { className: "ending-bar" })
           ),
-          React.createElement("footer", null)
+          React.createElement(
+            "footer",
+            null,
+            React.createElement("img", { src: "images/dkurth-portfolio-social-github.png" }),
+            React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin.png" })
+          )
         );
       }
     }]);
@@ -252,7 +257,12 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement("div", { className: "ending-bar" })
           ),
-          React.createElement("footer", null)
+          React.createElement(
+            "footer",
+            null,
+            React.createElement("img", { src: "images/dkurth-portfolio-social-github.png" }),
+            React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin.png" })
+          )
         );
       }
     }]);
