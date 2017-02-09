@@ -137,7 +137,8 @@ span {
   margin-right: 20px;*/ }
 
 a:link {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #134964; }
 
 a:visited {
   text-decoration: none;
@@ -195,5 +196,16 @@ footer img {
 
 .bump-down {
   margin-top: 30px; }
+
+button {
+  margin: 5px;
+  background-color: #134964;
+  border: none;
+  padding: 15px;
+  border-radius: 5px; }
+
+button a:link,
+button a:visited {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
