@@ -66,6 +66,7 @@ header div:hover {
 #name-holder {
   margin-top: 60px;
   font-size: 140px;
+  font-family: 'Monoton', cursive;
   text-align: center;
   color: #003264; }
 
@@ -89,7 +90,6 @@ header div:hover {
   transition-delay: 0s;
   transition-duration: 2s;
   overflow: hidden;
-  font-family: sans-serif;
   width: 100%;
   margin-top: 25px;
   /*margin-left: 20px;
@@ -104,7 +104,6 @@ span {
   line-height: 1.5em; }
 
 .read-more-trigger {
-  font-family: sans-serif;
   margin-bottom: 25px;
   /*margin-left: 20px;
   margin-right: 20px;*/ }
@@ -145,8 +144,15 @@ a:visited {
 
 .section-margin {
   width: 960px;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 20px;
   margin: 0 auto; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+footer {
+  height: 100px;
+  background-color: #003264; }
 
 /*# sourceMappingURL=style.css.map */

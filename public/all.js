@@ -134,7 +134,8 @@ if (window.Portfolio === undefined) {
               )
             ),
             React.createElement("div", { className: "ending-bar" })
-          )
+          ),
+          React.createElement("footer", null)
         );
       }
     }]);
@@ -250,7 +251,8 @@ if (window.Portfolio === undefined) {
               "Education"
             ),
             React.createElement("div", { className: "ending-bar" })
-          )
+          ),
+          React.createElement("footer", null)
         );
       }
     }]);
