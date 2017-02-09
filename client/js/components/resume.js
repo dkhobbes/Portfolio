@@ -98,8 +98,10 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
         <div className="ending-bar"></div>
       </section>
       <footer>
-       <img src="images/dkurth-portfolio-social-github.png" />
-       <img src="images/dkurth-portfolio-social-linkedin.png" />
+      <a href="https://github.com/dkhobbes" target="_blank"><img src="images/dkurth-portfolio-social-github-white.png" />
+      </a>
+      <a href="https://www.linkedin.com/in/davidkurth" target="_blank"><img src="images/dkurth-portfolio-social-linkedin-white.png" />
+      </a>
       </footer>
      </div>
     }

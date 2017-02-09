@@ -124,6 +124,16 @@ if (window.Portfolio === undefined) {
                 "p",
                 null,
                 " React.js, html5, css3"
+              ),
+              React.createElement(
+                "button",
+                null,
+                "visit website"
+              ),
+              React.createElement(
+                "button",
+                null,
+                "view code"
               )
             ),
             React.createElement(
@@ -140,7 +150,7 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "h2",
                   null,
-                  "SWAPI Project"
+                  "Octocats Project"
                 ),
                 React.createElement(
                   "h2",
@@ -151,6 +161,11 @@ if (window.Portfolio === undefined) {
                   "p",
                   null,
                   " React.js, html5, css3"
+                ),
+                React.createElement(
+                  "button",
+                  null,
+                  "view code"
                 )
               )
             ),
@@ -176,6 +191,16 @@ if (window.Portfolio === undefined) {
                 "p",
                 null,
                 " React.js, html5, css3"
+              ),
+              React.createElement(
+                "button",
+                null,
+                "visit website"
+              ),
+              React.createElement(
+                "button",
+                null,
+                "view code"
               )
             ),
             React.createElement("div", { className: "ending-bar" })
@@ -183,8 +208,16 @@ if (window.Portfolio === undefined) {
           React.createElement(
             "footer",
             null,
-            React.createElement("img", { src: "images/dkurth-portfolio-social-github-white.png" }),
-            React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin-white.png" })
+            React.createElement(
+              "a",
+              { href: "https://github.com/dkhobbes", target: "_blank" },
+              React.createElement("img", { src: "images/dkurth-portfolio-social-github-white.png" })
+            ),
+            React.createElement(
+              "a",
+              { href: "https://www.linkedin.com/in/davidkurth", target: "_blank" },
+              React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin-white.png" })
+            )
           )
         );
       }
@@ -508,8 +541,16 @@ if (window.Portfolio === undefined) {
           React.createElement(
             "footer",
             null,
-            React.createElement("img", { src: "images/dkurth-portfolio-social-github.png" }),
-            React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin.png" })
+            React.createElement(
+              "a",
+              { href: "https://github.com/dkhobbes", target: "_blank" },
+              React.createElement("img", { src: "images/dkurth-portfolio-social-github-white.png" })
+            ),
+            React.createElement(
+              "a",
+              { href: "https://www.linkedin.com/in/davidkurth", target: "_blank" },
+              React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin-white.png" })
+            )
           )
         );
       }

@@ -26,7 +26,7 @@ class HomeComponent extends React.Component {
           <h1>Skills</h1>
           <p>My skills involve working with HTML5, CSS3, JS, Node.JS, React, and Express. I am a quick learner, and love to learn. I am currently reading up on Express, and mongoDB.</p>
         </div>
-      
+
 
       <div className="ending-bar"></div>
     </section>
@@ -40,15 +40,18 @@ class HomeComponent extends React.Component {
         <h2>Final Project</h2>
         <h2>worked with</h2>
         <p> React.js, html5, css3</p>
+        <button>visit website</button>
+        <button>view code</button>
       </div>
       <div className="length">
         <div className="project-img">
             <img src="https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg" class="project" />
         </div>
         <div className="project-info">
-          <h2>SWAPI Project</h2>
+          <h2>Octocats Project</h2>
           <h2>worked with</h2>
           <p> React.js, html5, css3</p>
+          <button>view code</button>
         </div>
       </div>
 
@@ -59,12 +62,16 @@ class HomeComponent extends React.Component {
         <h2>Github Repo Project</h2>
         <h2>worked with</h2>
         <p> React.js, html5, css3</p>
+        <button>visit website</button>
+        <button>view code</button>
       </div>
       <div className="ending-bar"></div>
     </section>
     <footer>
-    <img src="images/dkurth-portfolio-social-github-white.png" />
-    <img src="images/dkurth-portfolio-social-linkedin-white.png" />
+    <a href="https://github.com/dkhobbes" target="_blank"><img src="images/dkurth-portfolio-social-github-white.png" />
+    </a>
+    <a href="https://www.linkedin.com/in/davidkurth" target="_blank"><img src="images/dkurth-portfolio-social-linkedin-white.png" />
+    </a>
     </footer>
     </div>
   }
