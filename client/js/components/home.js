@@ -34,34 +34,32 @@ class HomeComponent extends React.Component {
       <h1>Projects</h1>
 
       <div className="project-img">
-          <img src="https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg" class="project" />
+          <img src="images/BeerMeFinder-img.png" class="project" />
       </div>
       <div className="project-info">
         <h2>Final Project</h2>
-        <h2>worked with</h2>
-        <p> React.js, html5, css3</p>
+        <h2>worked with: React.JS, HTML5, CSS3</h2>
+        <p> </p>
         <button>visit website</button>
         <button>view code</button>
       </div>
       <div className="length">
         <div className="project-img">
-            <img src="https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg" class="project" />
+            <img src="images/Octocats-img.png" class="project" />
         </div>
         <div className="project-info">
           <h2>Octocats Project</h2>
-          <h2>worked with</h2>
-          <p> React.js, html5, css3</p>
+          <h2>worked with: HTML5, CSS3</h2>
           <button>view code</button>
         </div>
       </div>
 
       <div className="project-img">
-        <img src="https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg" class="project" />
+        <img src="images/githubRepo-img.png" class="project" />
       </div>
       <div className="project-info">
         <h2>Github Repo Project</h2>
-        <h2>worked with</h2>
-        <p> React.js, html5, css3</p>
+        <h2>worked with: React.JS, HTML5, CSS3</h2>
         <button>visit website</button>
         <button>view code</button>
       </div>

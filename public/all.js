@@ -105,7 +105,7 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
-              React.createElement("img", { src: "https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg", "class": "project" })
+              React.createElement("img", { src: "images/BeerMeFinder-img.png", "class": "project" })
             ),
             React.createElement(
               "div",
@@ -118,12 +118,12 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h2",
                 null,
-                "worked with"
+                "worked with: React.JS, HTML5, CSS3"
               ),
               React.createElement(
                 "p",
                 null,
-                " React.js, html5, css3"
+                " "
               ),
               React.createElement(
                 "button",
@@ -142,7 +142,7 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "div",
                 { className: "project-img" },
-                React.createElement("img", { src: "https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg", "class": "project" })
+                React.createElement("img", { src: "images/Octocats-img.png", "class": "project" })
               ),
               React.createElement(
                 "div",
@@ -155,12 +155,7 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "h2",
                   null,
-                  "worked with"
-                ),
-                React.createElement(
-                  "p",
-                  null,
-                  " React.js, html5, css3"
+                  "worked with: HTML5, CSS3"
                 ),
                 React.createElement(
                   "button",
@@ -172,7 +167,7 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
-              React.createElement("img", { src: "https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg", "class": "project" })
+              React.createElement("img", { src: "images/githubRepo-img.png", "class": "project" })
             ),
             React.createElement(
               "div",
@@ -185,12 +180,7 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h2",
                 null,
-                "worked with"
-              ),
-              React.createElement(
-                "p",
-                null,
-                " React.js, html5, css3"
+                "worked with: React.JS, HTML5, CSS3"
               ),
               React.createElement(
                 "button",

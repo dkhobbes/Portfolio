@@ -127,8 +127,9 @@ body {
 }
 
 footer {
-  height: 100px;
+  height: 70px;
   background-color: #134964;
+  margin-top: 50px;
 }
 
 footer img {
@@ -137,4 +138,18 @@ footer img {
   float: left;
   // background-color: white;
   margin: 10px;
+}
+
+.project-img img {
+  max-width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 0 auto;
+  display: block;
+}
+
+.project-info {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
