@@ -70,67 +70,112 @@ if (window.Portfolio === undefined) {
             { className: "info-me" },
             React.createElement(
               "div",
-              { className: "container" },
+              { className: "shown" },
+              React.createElement(
+                "h1",
+                null,
+                "Summary"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I missed the cut. I then went on to get an Advertising degree. I like to brew my own beer."
+              ),
+              React.createElement(
+                "h1",
+                null,
+                "Skills"
+              ),
+              React.createElement(
+                "p",
+                null,
+                "My skills involve working with HTML5, CSS3, JS, Node.JS, React, and Express. I am a quick learner, and love to learn. I am currently reading up on Express, and mongoDB."
+              )
+            ),
+            React.createElement("div", { className: "ending-bar" })
+          ),
+          React.createElement(
+            "section",
+            { className: "info-me" },
+            React.createElement(
+              "h1",
+              null,
+              "Projects"
+            ),
+            React.createElement(
+              "div",
+              { className: "project-img" },
+              React.createElement("img", { src: "https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg", "class": "project" })
+            ),
+            React.createElement(
+              "div",
+              { className: "project-info" },
+              React.createElement(
+                "h2",
+                null,
+                "Final Project"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "worked with"
+              ),
+              React.createElement(
+                "p",
+                null,
+                " React.js, html5, css3"
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "length" },
               React.createElement(
                 "div",
-                { className: "client-height" },
+                { className: "project-img" },
+                React.createElement("img", { src: "https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg", "class": "project" })
+              ),
+              React.createElement(
+                "div",
+                { className: "project-info" },
                 React.createElement(
-                  "div",
-                  { className: "shown" },
-                  React.createElement(
-                    "h1",
-                    null,
-                    "Summary"
-                  ),
-                  React.createElement(
-                    "p",
-                    null,
-                    "This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I missed the cut. I then went on to get an Advertising degree. I like to brew my own beer."
-                  ),
-                  React.createElement(
-                    "h1",
-                    null,
-                    "Skills"
-                  ),
-                  React.createElement(
-                    "p",
-                    null,
-                    "My skills involve working with HTML5, CSS3, JS, Node.JS, React, and Express. I am a quick learner, and love to learn. I am currently reading up on Express, and mongoDB."
-                  ),
-                  React.createElement(
-                    "p",
-                    null,
-                    "To read more about me click below."
-                  )
+                  "h2",
+                  null,
+                  "SWAPI Project"
                 ),
                 React.createElement(
-                  "div",
-                  { className: "hidden" },
-                  React.createElement(
-                    "p",
-                    null,
-                    "My other skills include an interest in ....."
-                  )
+                  "h2",
+                  null,
+                  "worked with"
+                ),
+                React.createElement(
+                  "p",
+                  null,
+                  " React.js, html5, css3"
                 )
               )
             ),
             React.createElement(
               "div",
-              { className: "read-more-trigger" },
+              { className: "project-img" },
+              React.createElement("img", { src: "https://images.gamurs.com/756265d0-efac-475f-a67c-6dbb46bf249d.jpg", "class": "project" })
+            ),
+            React.createElement(
+              "div",
+              { className: "project-info" },
               React.createElement(
-                "span",
-                { className: "arrow" },
-                "\u25BE"
+                "h2",
+                null,
+                "Github Repo Project"
               ),
               React.createElement(
-                "span",
-                { className: "read-more" },
-                "Read more"
+                "h2",
+                null,
+                "worked with"
               ),
               React.createElement(
-                "span",
-                { className: "read-less" },
-                "Read less"
+                "p",
+                null,
+                " React.js, html5, css3"
               )
             ),
             React.createElement("div", { className: "ending-bar" })
@@ -138,8 +183,8 @@ if (window.Portfolio === undefined) {
           React.createElement(
             "footer",
             null,
-            React.createElement("img", { src: "images/dkurth-portfolio-social-github.png" }),
-            React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin.png" })
+            React.createElement("img", { src: "images/dkurth-portfolio-social-github-white.png" }),
+            React.createElement("img", { src: "images/dkurth-portfolio-social-linkedin-white.png" })
           )
         );
       }
