@@ -15,23 +15,24 @@ class HomeComponent extends React.Component {
     </header>
     <section>
       <h1 id="name-holder">DAVID KURTH</h1>
-      <p className="info-me" id="space">Front End Developer</p>
+      <p className="info-me space">Front End Developer</p>
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
 
         <div className="shown">
-          <h1>Summary</h1>
-          <p>This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I missed the cut. I then went on to get an Advertising degree. I like to brew my own beer.</p>
-          <h1>Skills</h1>
-          <p>My skills involve working with HTML5, CSS3, JS, Node.JS, React, and Express. I am a quick learner, and love to learn. I am currently reading up on Express, and mongoDB.</p>
+          <h1 className="space">Summary</h1>
+          <p>This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I went on to get an Advertising degree. Moving to the Iron Yard has been the best decision to pursue a career in web development. During this 3 month boot camp I built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies. 
+          </p>
+          <h1 className="space">Skills</h1>
+          <p>My skills involve working with GitHub, Terminal, Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design. I am a quick learner, and love to learn. I am currently working on learning more on Express, and mongoDB.</p>
         </div>
 
 
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
-      <h1>Projects</h1>
+      <h1 className="space">Projects</h1>
 
       <div className="project-img">
           <img src="images/BeerMeFinder-img.png" class="project" />
@@ -40,8 +41,8 @@ class HomeComponent extends React.Component {
         <h2>Final Project</h2>
         <h2>worked with: React.JS, HTML5, CSS3</h2>
         <p> </p>
-        <button>visit website</button>
-        <button>view code</button>
+        <button><a href="https://beer-me-finder.herokuapp.com/#/" target="_blank">visit website</a></button>
+        <button><a href="https://github.com/dkhobbes/final-project" target="_blank">view code</a></button>
       </div>
       <div className="length">
         <div className="project-img">
@@ -50,7 +51,7 @@ class HomeComponent extends React.Component {
         <div className="project-info">
           <h2>Octocats Project</h2>
           <h2>worked with: HTML5, CSS3</h2>
-          <button>view code</button>
+          <button><a href="https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats" target="_blank"> view code</a></button>
         </div>
       </div>
 
@@ -60,8 +61,8 @@ class HomeComponent extends React.Component {
       <div className="project-info">
         <h2>Github Repo Project</h2>
         <h2>worked with: React.JS, HTML5, CSS3</h2>
-        <button>visit website</button>
-        <button>view code</button>
+        <button><a href="https://github-user-repos.herokuapp.com/" target="_blank">visit website</a></button>
+        <button><a href="https://github.com/dkhobbes/Github-Repo-project" target="_blank">view code</a></button>
       </div>
       <div className="ending-bar"></div>
     </section>

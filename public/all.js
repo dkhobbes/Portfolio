@@ -60,7 +60,7 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement(
               "p",
-              { className: "info-me", id: "space" },
+              { className: "info-me space" },
               "Front End Developer"
             ),
             React.createElement("div", { className: "ending-bar" })
@@ -73,23 +73,23 @@ if (window.Portfolio === undefined) {
               { className: "shown" },
               React.createElement(
                 "h1",
-                null,
+                { className: "space" },
                 "Summary"
               ),
               React.createElement(
                 "p",
                 null,
-                "This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I missed the cut. I then went on to get an Advertising degree. I like to brew my own beer."
+                "This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I went on to get an Advertising degree. Moving to the Iron Yard has been the best decision to pursue a career in web development. During this 3 month boot camp I built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies.\xA0"
               ),
               React.createElement(
                 "h1",
-                null,
+                { className: "space" },
                 "Skills"
               ),
               React.createElement(
                 "p",
                 null,
-                "My skills involve working with HTML5, CSS3, JS, Node.JS, React, and Express. I am a quick learner, and love to learn. I am currently reading up on Express, and mongoDB."
+                "My skills involve working with GitHub, Terminal, Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design. I am a quick learner, and love to learn. I am currently working on learning more on Express, and mongoDB."
               )
             ),
             React.createElement("div", { className: "ending-bar" })
@@ -99,7 +99,7 @@ if (window.Portfolio === undefined) {
             { className: "info-me" },
             React.createElement(
               "h1",
-              null,
+              { className: "space" },
               "Projects"
             ),
             React.createElement(
@@ -128,12 +128,20 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "button",
                 null,
-                "visit website"
+                React.createElement(
+                  "a",
+                  { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
+                  "visit website"
+                )
               ),
               React.createElement(
                 "button",
                 null,
-                "view code"
+                React.createElement(
+                  "a",
+                  { href: "https://github.com/dkhobbes/final-project", target: "_blank" },
+                  "view code"
+                )
               )
             ),
             React.createElement(
@@ -160,7 +168,11 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "button",
                   null,
-                  "view code"
+                  React.createElement(
+                    "a",
+                    { href: "https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats", target: "_blank" },
+                    " view code"
+                  )
                 )
               )
             ),
@@ -185,12 +197,20 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "button",
                 null,
-                "visit website"
+                React.createElement(
+                  "a",
+                  { href: "https://github-user-repos.herokuapp.com/", target: "_blank" },
+                  "visit website"
+                )
               ),
               React.createElement(
                 "button",
                 null,
-                "view code"
+                React.createElement(
+                  "a",
+                  { href: "https://github.com/dkhobbes/Github-Repo-project", target: "_blank" },
+                  "view code"
+                )
               )
             ),
             React.createElement("div", { className: "ending-bar" })
@@ -272,7 +292,7 @@ if (window.Portfolio === undefined) {
           ),
           React.createElement(
             "section",
-            { className: "section-margin" },
+            { className: "section-margin-top" },
             React.createElement(
               "h1",
               null,
@@ -310,12 +330,12 @@ if (window.Portfolio === undefined) {
             { className: "section-margin" },
             React.createElement(
               "h1",
-              null,
+              { className: "space" },
               "Summary of Qualifications"
             ),
             React.createElement(
               "ul",
-              null,
+              { className: "lists" },
               React.createElement(
                 "li",
                 null,
@@ -344,7 +364,7 @@ if (window.Portfolio === undefined) {
             { className: "section-margin" },
             React.createElement(
               "h1",
-              null,
+              { className: "space" },
               "Work History"
             ),
             React.createElement(
@@ -367,7 +387,7 @@ if (window.Portfolio === undefined) {
               ),
               React.createElement(
                 "ul",
-                null,
+                { className: "lists" },
                 React.createElement(
                   "li",
                   null,
@@ -430,7 +450,7 @@ if (window.Portfolio === undefined) {
               ),
               React.createElement(
                 "ul",
-                null,
+                { className: "lists" },
                 React.createElement(
                   "li",
                   null,
@@ -495,7 +515,7 @@ if (window.Portfolio === undefined) {
             { className: "section-margin" },
             React.createElement(
               "h1",
-              null,
+              { className: "space" },
               "Education"
             ),
             React.createElement(

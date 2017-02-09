@@ -35,8 +35,11 @@ header div:hover {
 	width: 960px;
 }
 
-#space {
+.space {
 	padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .ending-bar {
@@ -117,7 +120,14 @@ a:visited {
 
 .section-margin {
   width: 960px;
-  padding-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.section-margin-top {
+  padding-top: 100px;
+  width: 960px;
   padding-bottom: 20px;
   margin: 0 auto;
 }
@@ -152,4 +162,11 @@ footer img {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.lists {
+  list-style-type: circle;
+  margin-left: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

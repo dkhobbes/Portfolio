@@ -13,7 +13,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
        <div className="nav-tab nav-1"><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
        <div className="nav-tab"><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
       </header>
-      <section className="section-margin">
+      <section className="section-margin-top">
         <h1>David Kurth</h1>
         <h2>Front-End Developer</h2>
         <h2>github: dkhobbes</h2>
@@ -23,8 +23,8 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
       <div className="ending-bar"></div>
       </section>
       <section className="section-margin">
-        <h1>Summary of Qualifications</h1>
-        <ul>
+        <h1 className="space">Summary of Qualifications</h1>
+        <ul className="lists">
         <li>A conscientious, fast learner offering the ability to assess an organization’s needs and create a strong web presence.</li>
         <li>Strong ability to improvise and think creatively towards technical problems.</li>
         <li>Experienced with communicating to all levels of management and team members.</li>
@@ -33,12 +33,12 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
         <div className="ending-bar"></div>
       </section>
       <section className="section-margin">
-        <h1>Work History</h1>
+        <h1 className="space">Work History</h1>
         <div className="job">
           <h1>The Iron Yard</h1>
           <h2>October 2016-February 2017</h2>
           <h2>Front-End Developer</h2>
-          <ul>
+          <ul className="lists">
             <li>Worked at the coding boot camp to learn the foundation of front-end development including: HTML5, CSS3, JavaScript and React.</li>
             <li>Built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies. 
             </li>
@@ -59,7 +59,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
           <h1>Pinnacle Group</h1>
           <h2>May 2011-Oct 2016</h2>
           <h2>Technical Recruiter/Delivery Manager</h2>
-          <ul>
+          <ul className="lists">
             <li>Primary responsibilities included identifying, securing and directing consulting resources to implement client strategies. </li>
             <li>Brought in over $715,383 in GM and over $5,543,457 in revenue throughout tenure.
             </li>
@@ -86,7 +86,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
         <div className="ending-bar"></div>
       </section>
       <section className="section-margin">
-        <h1>Education</h1>
+        <h1 className="space">Education</h1>
           <div className="school">
           <h2>The Iron Yard</h2>
           <h2>Coding Boot Camp - Front-End Development</h2>
