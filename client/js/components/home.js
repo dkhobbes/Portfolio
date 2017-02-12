@@ -36,8 +36,8 @@ class HomeComponent extends React.Component {
         <h2>Final Project</h2>
         <h2>worked with: React.JS, HTML5, CSS3</h2>
         <p> </p>
-        <button><a href="https://beer-me-finder.herokuapp.com/#/" target="_blank">visit website</a></button>
-        <button><a href="https://github.com/dkhobbes/final-project" target="_blank">view code</a></button>
+        <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+        <a href="https://github.com/dkhobbes/final-project" target="_blank"><button>view code</button></a>
       </div>
       <div className="length">
         <div className="project-img">
@@ -46,7 +46,7 @@ class HomeComponent extends React.Component {
         <div className="project-info">
           <h2>Octocats Project</h2>
           <h2>worked with: HTML5, CSS3</h2>
-          <button><a href="https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats" target="_blank"> view code</a></button>
+          <a href="https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats" target="_blank"><button> view code</button></a>
         </div>
       </div>
 
@@ -56,8 +56,8 @@ class HomeComponent extends React.Component {
       <div className="project-info">
         <h2>Github Repo Project</h2>
         <h2>worked with: React.JS, HTML5, CSS3</h2>
-        <button><a href="https://github-user-repos.herokuapp.com/" target="_blank">visit website</a></button>
-        <button><a href="https://github.com/dkhobbes/Github-Repo-project" target="_blank">view code</a></button>
+      <a href="https://github-user-repos.herokuapp.com/" target="_blank"><button>visit website</button></a>
+        <a href="https://github.com/dkhobbes/Github-Repo-project" target="_blank"><button>view code</button></a>
       </div>
       <div className="ending-bar"></div>
     </section>

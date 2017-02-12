@@ -122,20 +122,20 @@ if (window.Portfolio === undefined) {
                 " "
               ),
               React.createElement(
-                "button",
-                null,
+                "a",
+                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
                 React.createElement(
-                  "a",
-                  { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
+                  "button",
+                  null,
                   "visit website"
                 )
               ),
               React.createElement(
-                "button",
-                null,
+                "a",
+                { href: "https://github.com/dkhobbes/final-project", target: "_blank" },
                 React.createElement(
-                  "a",
-                  { href: "https://github.com/dkhobbes/final-project", target: "_blank" },
+                  "button",
+                  null,
                   "view code"
                 )
               )
@@ -162,11 +162,11 @@ if (window.Portfolio === undefined) {
                   "worked with: HTML5, CSS3"
                 ),
                 React.createElement(
-                  "button",
-                  null,
+                  "a",
+                  { href: "https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats", target: "_blank" },
                   React.createElement(
-                    "a",
-                    { href: "https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats", target: "_blank" },
+                    "button",
+                    null,
                     " view code"
                   )
                 )
@@ -191,20 +191,20 @@ if (window.Portfolio === undefined) {
                 "worked with: React.JS, HTML5, CSS3"
               ),
               React.createElement(
-                "button",
-                null,
+                "a",
+                { href: "https://github-user-repos.herokuapp.com/", target: "_blank" },
                 React.createElement(
-                  "a",
-                  { href: "https://github-user-repos.herokuapp.com/", target: "_blank" },
+                  "button",
+                  null,
                   "visit website"
                 )
               ),
               React.createElement(
-                "button",
-                null,
+                "a",
+                { href: "https://github.com/dkhobbes/Github-Repo-project", target: "_blank" },
                 React.createElement(
-                  "a",
-                  { href: "https://github.com/dkhobbes/Github-Repo-project", target: "_blank" },
+                  "button",
+                  null,
                   "view code"
                 )
               )

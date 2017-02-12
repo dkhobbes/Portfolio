@@ -204,9 +204,10 @@ button {
   padding: 15px;
   border-radius: 5px; }
 
-button a:link,
-button a:visited {
-  color: white; }
+a:link button,
+a:visited button {
+  color: white;
+  cursor: pointer; }
 
 @media only screen and (max-width: 1000px) {
   .info-me,
@@ -214,12 +215,25 @@ button a:visited {
   .info-me p {
     width: 800px;
     margin: 0 auto; }
+  .section-margin,
+  .section-margin-top,
+  .section-margin h1 {
+    width: 800px;
+    margin: 0 auto; }
+  .section-margin li {
+    width: 765px; }
   .ending-bar {
     width: 800px;
     border-bottom: 4px solid #134964;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  #name-holder {
+    font-size: 130px;
+    margin-top: 50px;
+    line-height: 1em; }
+  .bump-down {
+    padding-top: 30px; } }
 
 @media only screen and (max-width: 820px) {
   .info-me,
@@ -232,7 +246,20 @@ button a:visited {
     border-bottom: 4px solid #134964;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .section-margin,
+  .section-margin-top,
+  .section-margin h1 {
+    width: 600px;
+    margin: 0 auto; }
+  .section-margin li {
+    width: 565px; }
+  #name-holder {
+    font-size: 120px;
+    margin-top: 50px;
+    line-height: 1em; }
+  .bump-down {
+    padding-top: 30px; } }
 
 @media only screen and (max-width: 620px) {
   #name-holder {
@@ -244,17 +271,52 @@ button a:visited {
   .info-me p {
     width: 425px;
     margin: 0 auto; }
+  .section-margin,
+  .section-margin-top,
+  .section-margin h1 {
+    width: 425px;
+    margin: 0 auto; }
+  .section-margin li {
+    width: 390px; }
   .ending-bar {
     width: 425px;
     border-bottom: 4px solid #134964;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .bump-down {
+    padding-top: 30px; } }
 
 @media only screen and (max-width: 425px) {
   #name-holder {
     font-size: 80px;
-    margin-top: 30px;
-    line-height: 1em; } }
+    margin-top: 50px;
+    line-height: 1em; }
+  .info-me,
+  .info-me h1,
+  .info-me p {
+    width: 325px;
+    margin: 0 auto; }
+  .section-margin,
+  .section-margin-top,
+  .section-margin h1 {
+    width: 325px;
+    margin: 0 auto; }
+  .section-margin li {
+    width: 290px; }
+  .ending-bar {
+    width: 325px;
+    border-bottom: 3px solid #134964;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto; }
+  .project-img img {
+    max-width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: block; }
+  .bump-down {
+    padding-top: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
