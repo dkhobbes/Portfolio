@@ -19,23 +19,18 @@ class HomeComponent extends React.Component {
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
-
-        <div className="shown">
-          <h1 className="space">Summary</h1>
-          <p>This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I went on to get an Advertising degree. Moving to the Iron Yard has been the best decision to pursue a career in web development. During this 3 month boot camp I built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies. 
-          </p>
-          <h1 className="space">Skills</h1>
-          <p>My skills involve working with GitHub, Terminal, Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design. I am a quick learner, and love to learn. I am currently working on learning more on Express, and mongoDB.</p>
-        </div>
-
-
+        <h1 className="space">Summary</h1>
+        <p>This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I went on to get an Advertising degree. Moving to the Iron Yard has been the best decision to pursue a career in web development. During this 3 month boot camp I built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies. 
+        </p>
+        <h1 className="space">Skills</h1>
+        <p>My skills involve working with GitHub, Terminal, Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design. I am a quick learner, and love to learn. I am currently working on learning more on Express, and mongoDB.</p>
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
       <h1 className="space">Projects</h1>
 
       <div className="project-img">
-          <img src="images/BeerMeFinder-img.png" class="project" />
+          <img src="images/BeerMeFinder-img.png" className="project" />
       </div>
       <div className="project-info">
         <h2>Final Project</h2>
@@ -46,7 +41,7 @@ class HomeComponent extends React.Component {
       </div>
       <div className="length">
         <div className="project-img">
-            <img src="images/Octocats-img.png" class="project" />
+            <img src="images/Octocats-img.png" className="project" />
         </div>
         <div className="project-info">
           <h2>Octocats Project</h2>
@@ -56,7 +51,7 @@ class HomeComponent extends React.Component {
       </div>
 
       <div className="project-img">
-        <img src="images/githubRepo-img.png" class="project" />
+        <img src="images/githubRepo-img.png" className="project" />
       </div>
       <div className="project-info">
         <h2>Github Repo Project</h2>
