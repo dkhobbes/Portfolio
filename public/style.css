@@ -85,57 +85,6 @@ header div:hover {
   padding-bottom: 20px;
   margin: 0 auto; }
 
-/*adding in show more and show less */
-.container {
-  transition-property: overflow, max-height;
-  transition-delay: 0s;
-  transition-duration: 2s;
-  overflow: hidden;
-  width: 100%;
-  margin-top: 25px;
-  /*margin-left: 20px;
-  margin-right: 20px;*/ }
-
-span {
-  display: none; }
-
-.container p {
-  font-size: 13px;
-  padding-top: 5px;
-  line-height: 1.5em; }
-
-.read-more-trigger {
-  margin-bottom: 25px;
-  /*margin-left: 20px;
-  margin-right: 20px;*/ }
-
-.arrow {
-  font-size: 13px;
-  display: inline-block;
-  transition-property: transform;
-  transition-duration: .2s; }
-
-.arrow-rotate {
-  transition-property: transform;
-  -ms-transform: rotate(180deg);
-  /* IE 9 */
-  -webkit-transform: rotate(180deg);
-  /* Chrome, Safari, Opera */
-  transform: rotate(180deg); }
-
-.read-more {
-  color: #0096c8;
-  font-size: 13px;
-  padding-left: 5px;
-  display: inline; }
-
-.show-container {
-  transition-property: overflow, max-height;
-  margin-top: 25px;
-  width: 100%;
-  /*margin-left: 20px;
-  margin-right: 20px;*/ }
-
 a:link {
   text-decoration: none;
   color: #134964; }
@@ -223,11 +172,7 @@ a:visited button {
   .section-margin li {
     width: 765px; }
   .ending-bar {
-    width: 800px;
-    border-bottom: 4px solid #134964;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto; }
+    width: 800px; }
   #name-holder {
     font-size: 130px;
     margin-top: 50px;
@@ -242,11 +187,7 @@ a:visited button {
     width: 600px;
     margin: 0 auto; }
   .ending-bar {
-    width: 600px;
-    border-bottom: 4px solid #134964;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto; }
+    width: 600px; }
   .section-margin,
   .section-margin-top,
   .section-margin h1 {
@@ -279,11 +220,7 @@ a:visited button {
   .section-margin li {
     width: 390px; }
   .ending-bar {
-    width: 425px;
-    border-bottom: 4px solid #134964;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto; }
+    width: 425px; }
   .bump-down {
     padding-top: 30px; } }
 
@@ -305,11 +242,7 @@ a:visited button {
   .section-margin li {
     width: 290px; }
   .ending-bar {
-    width: 325px;
-    border-bottom: 3px solid #134964;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto; }
+    width: 325px; }
   .project-img img {
     max-width: 300px;
     height: 200px;
