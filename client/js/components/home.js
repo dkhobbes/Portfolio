@@ -6,12 +6,19 @@ class HomeComponent extends React.Component {
      super();
    }
 
+   componentDidMount() {
+     this.setState ({
+       currentClass: 'nav-tab'
+     });
+   }
+
+
   render(){
     return <div>
     <header>
       <section id="banner"></section>
-      <div className="nav-tab nav-1"><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
-      <div className="nav-tab"><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
+      <div className={this.state.currentClass === "home" ? "nav-tab-on" : "nav-tab"}><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
+      <div className={this.state.currentClass === "resume" ? "nav-tab-on" : "nav-tab"}><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
     </header>
     <section>
       <h1 id="name-holder">DAVID KURTH</h1>
@@ -41,12 +48,13 @@ class HomeComponent extends React.Component {
       </div>
       <div className="length">
         <div className="project-img">
-            <img src="images/Octocats-img.png" className="project" />
+            <img src="images/blog-books-image.png" className="project" />
         </div>
         <div className="project-info">
           <h2>Octocats Project</h2>
           <h2>worked with: HTML5, CSS3</h2>
-          <a href="https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats" target="_blank"><button> view code</button></a>
+          <a href="https://blog-books.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+          <a href="https://github.com/dkhobbes/blog-books-final" target="_blank"><button> view code</button></a>
         </div>
       </div>
 
@@ -56,7 +64,7 @@ class HomeComponent extends React.Component {
       <div className="project-info">
         <h2>Github Repo Project</h2>
         <h2>worked with: React.JS, HTML5, CSS3</h2>
-      <a href="https://github-user-repos.herokuapp.com/" target="_blank"><button>visit website</button></a>
+        <a href="https://github-user-repos.herokuapp.com/" target="_blank"><button>visit website</button></a>
         <a href="https://github.com/dkhobbes/Github-Repo-project" target="_blank"><button>view code</button></a>
       </div>
       <div className="ending-bar"></div>

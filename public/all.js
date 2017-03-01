@@ -22,6 +22,13 @@ if (window.Portfolio === undefined) {
     }
 
     _createClass(HomeComponent, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        this.setState({
+          currentClass: 'nav-tab'
+        });
+      }
+    }, {
       key: "render",
       value: function render() {
         return React.createElement(
@@ -33,7 +40,7 @@ if (window.Portfolio === undefined) {
             React.createElement("section", { id: "banner" }),
             React.createElement(
               "div",
-              { className: "nav-tab nav-1" },
+              { className: this.state.currentClass === "home" ? "nav-tab-on" : "nav-tab" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/' },
@@ -42,7 +49,7 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement(
               "div",
-              { className: "nav-tab" },
+              { className: this.state.currentClass === "resume" ? "nav-tab-on" : "nav-tab" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/resume' },
@@ -146,7 +153,7 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "div",
                 { className: "project-img" },
-                React.createElement("img", { src: "images/Octocats-img.png", className: "project" })
+                React.createElement("img", { src: "images/blog-books-image.png", className: "project" })
               ),
               React.createElement(
                 "div",
@@ -163,7 +170,16 @@ if (window.Portfolio === undefined) {
                 ),
                 React.createElement(
                   "a",
-                  { href: "https://github.com/dkhobbes/little-web-assigments/tree/master/week-5/day-22/day-22-octocats", target: "_blank" },
+                  { href: "https://blog-books.herokuapp.com/#/", target: "_blank" },
+                  React.createElement(
+                    "button",
+                    null,
+                    "visit website"
+                  )
+                ),
+                React.createElement(
+                  "a",
+                  { href: "https://github.com/dkhobbes/blog-books-final", target: "_blank" },
                   React.createElement(
                     "button",
                     null,
@@ -258,6 +274,13 @@ if (window.Portfolio === undefined) {
     }
 
     _createClass(ResumeComponent, [{
+      key: "componentDidMount",
+      value: function componentDidMount() {
+        this.setState({
+          currentClass: 'nav-tab'
+        });
+      }
+    }, {
       key: "render",
       value: function render() {
         return React.createElement(
@@ -269,7 +292,7 @@ if (window.Portfolio === undefined) {
             React.createElement("section", { id: "banner" }),
             React.createElement(
               "div",
-              { className: "nav-tab nav-1" },
+              { className: this.state.currentClass === "10,19" ? "nav-tab-on" : "nav-tab" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/' },
@@ -278,7 +301,7 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement(
               "div",
-              { className: "nav-tab" },
+              { className: this.state.currentClass === "10,19" ? "nav-tab-on" : "nav-tab" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/resume' },

@@ -16,6 +16,15 @@ $navy: #134964;
   margin-left: 5px;
 }
 
+.nav-tab-on {
+  width: 50px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  margin-left: 5px;
+  border-bottom: 2px solid $navy;
+}
+
 header div:hover {
   border-bottom: 2px solid rgb(0,150,200);
 }
@@ -43,7 +52,7 @@ header div:hover {
 
 .ending-bar {
   width: 960px;
-  border-bottom: 5px solid #134964;
+  border-bottom: 5px solid $navy;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;

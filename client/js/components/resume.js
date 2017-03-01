@@ -6,12 +6,18 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
      super();
     }
 
+    componentDidMount() {
+      this.setState ({
+        currentClass: 'nav-tab'
+      });
+    }
+
    render(){
      return <div>
       <header>
        <section id="banner"></section>
-       <div className="nav-tab nav-1"><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
-       <div className="nav-tab"><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
+       <div className={this.state.currentClass === "10,19" ? "nav-tab-on" : "nav-tab"}><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
+       <div className={this.state.currentClass === "10,19" ? "nav-tab-on" : "nav-tab"}><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
       </header>
       <section className="section-margin-top">
         <h1 className="space">David Kurth</h1>
