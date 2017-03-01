@@ -2,23 +2,16 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
 (function(){
 class HomeComponent extends React.Component {
 
-    constructor(){
-     super();
-   }
-
-   componentDidMount() {
-     this.setState ({
-       currentClass: 'nav-tab'
-     });
-   }
-
+  constructor(){
+   super();
+  }
 
   render(){
     return <div>
     <header>
       <section id="banner"></section>
-      <div className={this.state.currentClass === "home" ? "nav-tab-on" : "nav-tab"}><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
-      <div className={this.state.currentClass === "resume" ? "nav-tab-on" : "nav-tab"}><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
+      <div className="nav-tab nav-1"><ReactRouter.Link to={'/'}>home</ReactRouter.Link></div>
+      <div className="nav-tab"><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
     </header>
     <section>
       <h1 id="name-holder">DAVID KURTH</h1>
@@ -40,7 +33,7 @@ class HomeComponent extends React.Component {
           <img src="images/BeerMeFinder-img.png" className="project" />
       </div>
       <div className="project-info">
-        <h2>Final Project</h2>
+        <h2>Beer Me Finder Project</h2>
         <h2>worked with: React.JS, HTML5, CSS3</h2>
         <p> </p>
         <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
@@ -51,7 +44,7 @@ class HomeComponent extends React.Component {
             <img src="images/blog-books-image.png" className="project" />
         </div>
         <div className="project-info">
-          <h2>Octocats Project</h2>
+          <h2>Book Blog Project</h2>
           <h2>worked with: HTML5, CSS3</h2>
           <a href="https://blog-books.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
           <a href="https://github.com/dkhobbes/blog-books-final" target="_blank"><button> view code</button></a>

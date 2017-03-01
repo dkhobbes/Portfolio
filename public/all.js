@@ -22,13 +22,6 @@ if (window.Portfolio === undefined) {
     }
 
     _createClass(HomeComponent, [{
-      key: "componentDidMount",
-      value: function componentDidMount() {
-        this.setState({
-          currentClass: 'nav-tab'
-        });
-      }
-    }, {
       key: "render",
       value: function render() {
         return React.createElement(
@@ -40,7 +33,7 @@ if (window.Portfolio === undefined) {
             React.createElement("section", { id: "banner" }),
             React.createElement(
               "div",
-              { className: this.state.currentClass === "home" ? "nav-tab-on" : "nav-tab" },
+              { className: "nav-tab nav-1" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/' },
@@ -49,7 +42,7 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement(
               "div",
-              { className: this.state.currentClass === "resume" ? "nav-tab-on" : "nav-tab" },
+              { className: "nav-tab" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/resume' },
@@ -116,7 +109,7 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h2",
                 null,
-                "Final Project"
+                "Beer Me Finder Project"
               ),
               React.createElement(
                 "h2",
@@ -161,7 +154,7 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "h2",
                   null,
-                  "Octocats Project"
+                  "Book Blog Project"
                 ),
                 React.createElement(
                   "h2",
@@ -274,13 +267,6 @@ if (window.Portfolio === undefined) {
     }
 
     _createClass(ResumeComponent, [{
-      key: "componentDidMount",
-      value: function componentDidMount() {
-        this.setState({
-          currentClass: 'nav-tab'
-        });
-      }
-    }, {
       key: "render",
       value: function render() {
         return React.createElement(
@@ -292,7 +278,7 @@ if (window.Portfolio === undefined) {
             React.createElement("section", { id: "banner" }),
             React.createElement(
               "div",
-              { className: this.state.currentClass === "10,19" ? "nav-tab-on" : "nav-tab" },
+              { className: "nav-tab nav-1" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/' },
@@ -301,7 +287,7 @@ if (window.Portfolio === undefined) {
             ),
             React.createElement(
               "div",
-              { className: this.state.currentClass === "10,19" ? "nav-tab-on" : "nav-tab" },
+              { className: "nav-tab" },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/resume' },
