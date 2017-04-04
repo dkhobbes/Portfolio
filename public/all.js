@@ -551,7 +551,16 @@ if (window.Portfolio === undefined) {
                 "Bachelor of Arts in Advertising"
               )
             ),
-            React.createElement("div", { className: "ending-bar" })
+            React.createElement("div", { className: "ending-bar" }),
+            React.createElement(
+              "a",
+              { className: "space", href: "/images/DavidKurthResume.pdf", download: "" },
+              React.createElement(
+                "button",
+                null,
+                "download"
+              )
+            )
           ),
           React.createElement(
             "footer",

@@ -96,6 +96,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
           <h2>Bachelor of Arts in Advertising</h2>
           </div>
         <div className="ending-bar"></div>
+        <a className="space" href="/images/DavidKurthResume.pdf" download=""><button>download</button></a>
       </section>
       <footer>
       <a href="https://github.com/dkhobbes" target="_blank"><img src="images/dkurth-portfolio-social-github-white.png" />
