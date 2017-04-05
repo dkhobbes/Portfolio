@@ -101,7 +101,11 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
-              React.createElement("img", { src: "images/BeerMeFinder-img.png", className: "project" })
+              React.createElement(
+                "a",
+                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
+                React.createElement("img", { src: "images/BeerMeFinder-img.png", className: "project" })
+              )
             ),
             React.createElement(
               "div",
@@ -146,7 +150,11 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "div",
                 { className: "project-img" },
-                React.createElement("img", { src: "images/blog-books-image.png", className: "project" })
+                React.createElement(
+                  "a",
+                  { href: "https://blog-books.herokuapp.com/#/", target: "_blank" },
+                  React.createElement("img", { src: "images/blog-books-image.png", className: "project" })
+                )
               ),
               React.createElement(
                 "div",
@@ -184,7 +192,11 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
-              React.createElement("img", { src: "images/githubRepo-img.png", className: "project" })
+              React.createElement(
+                "a",
+                { href: "https://github-user-repos.herokuapp.com/", target: "_blank" },
+                React.createElement("img", { src: "images/githubRepo-img.png", className: "project" })
+              )
             ),
             React.createElement(
               "div",

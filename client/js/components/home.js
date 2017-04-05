@@ -30,7 +30,8 @@ class HomeComponent extends React.Component {
       <h1 className="space">Projects</h1>
 
       <div className="project-img">
-          <img src="images/BeerMeFinder-img.png" className="project" />
+      <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><img src="images/BeerMeFinder-img.png" className="project" />
+      </a>
       </div>
       <div className="project-info">
         <h2>Beer Me Finder Project</h2>
@@ -41,7 +42,8 @@ class HomeComponent extends React.Component {
       </div>
       <div className="length">
         <div className="project-img">
-            <img src="images/blog-books-image.png" className="project" />
+        <a href="https://blog-books.herokuapp.com/#/" target="_blank"><img src="images/blog-books-image.png" className="project" />
+        </a>
         </div>
         <div className="project-info">
           <h2>Book Blog Project</h2>
@@ -52,7 +54,8 @@ class HomeComponent extends React.Component {
       </div>
 
       <div className="project-img">
-        <img src="images/githubRepo-img.png" className="project" />
+      <a href="https://github-user-repos.herokuapp.com/" target="_blank"><img src="images/githubRepo-img.png" className="project" />
+      </a>
       </div>
       <div className="project-info">
         <h2>Github Repo Project</h2>
