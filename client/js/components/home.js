@@ -47,7 +47,7 @@ class HomeComponent extends React.Component {
         </div>
         <div className="project-info">
           <h2>Book Blog Project</h2>
-          <h2>worked with: HTML5, CSS3</h2>
+          <h2>worked with: React.JS, HTML5, CSS3</h2>
           <a href="https://blog-books.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
           <a href="https://github.com/dkhobbes/blog-books-final" target="_blank"><button> view code</button></a>
         </div>
