@@ -167,7 +167,7 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "h2",
                   null,
-                  "worked with: HTML5, CSS3"
+                  "worked with: React.JS, HTML5, CSS3"
                 ),
                 React.createElement(
                   "a",
