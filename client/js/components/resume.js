@@ -46,6 +46,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
             </li>
           </ul>
         </div>
+
         <div className="job">
           <h1 className="edu-bold">The Iron Yard</h1>
           <h2>October 2016-February 2017</h2>
