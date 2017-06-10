@@ -389,6 +389,44 @@ if (window.Portfolio === undefined) {
               { className: "job" },
               React.createElement(
                 "h1",
+                { className: "edu-bold bump-down" },
+                "70KFT"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "May 2017-Present"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Web Developer Intern"
+              ),
+              React.createElement(
+                "ul",
+                { className: "lists" },
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked on creating a PostCSS plugin to create an internal grid system with team member."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked on HTML email tempting with MJML for client ."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Helped with new landing page for website."
+                )
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "job" },
+              React.createElement(
+                "h1",
                 { className: "edu-bold" },
                 "The Iron Yard"
               ),

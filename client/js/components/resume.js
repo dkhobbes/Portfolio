@@ -35,6 +35,18 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
       <section className="section-margin">
         <h1 className="space">Work History</h1>
         <div className="job">
+          <h1 className="edu-bold bump-down">70KFT</h1>
+          <h2>May 2017-Present</h2>
+          <h2>Web Developer Intern</h2>
+          <ul className="lists">
+            <li>Worked on creating a PostCSS plugin to create an internal grid system with team member.</li>
+            <li>Worked on HTML email tempting with MJML for client .
+            </li>
+            <li>Helped with new landing page for website.
+            </li>
+          </ul>
+        </div>
+        <div className="job">
           <h1 className="edu-bold">The Iron Yard</h1>
           <h2>October 2016-February 2017</h2>
           <h2>Front-End Developer</h2>
