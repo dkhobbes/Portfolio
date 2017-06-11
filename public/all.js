@@ -427,7 +427,7 @@ if (window.Portfolio === undefined) {
               { className: "job" },
               React.createElement(
                 "h1",
-                { className: "edu-bold" },
+                { className: "edu-bold bump-down" },
                 "The Iron Yard"
               ),
               React.createElement(
