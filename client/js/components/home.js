@@ -42,9 +42,13 @@ class HomeComponent extends React.Component {
       </div>
       <div className="length">
         <div className="project-img">
-        <a href="https://blog-books.herokuapp.com/#/" target="_blank"><img src="images/blog-books-image.png" className="project" />
+
+        <a href="https://blog-books.herokuapp.com/#/" target="_blank">
+        <img src="images/blog-books-image.png" className="project" />
         </a>
         </div>
+
+
         <div className="project-info">
           <h2>Book Blog Project</h2>
           <h2>worked with: React.JS, HTML5, CSS3</h2>

@@ -169,6 +169,9 @@ a:visited button {
   color: white;
   cursor: pointer; }
 
+.cover:hover {
+  background-color: rgba(0, 0, 0, 0.6); }
+
 @media only screen and (max-width: 1000px) {
   .info-me,
   .info-me h1,
