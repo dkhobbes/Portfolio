@@ -161,6 +161,9 @@ button {
   padding: 15px;
   border-radius: 5px; }
 
+button:hover {
+  background-color: #0c3c50; }
+
 a:link button,
 a:visited button {
   color: white;
@@ -257,6 +260,8 @@ a:visited button {
     border: 2px solid black;
     margin: 0 auto;
     display: block; }
+  .project-img:hover {
+    background-color: rgba(0, 0, 0, 0.3); }
   .bump-down {
     padding-top: 30px; } }
 
