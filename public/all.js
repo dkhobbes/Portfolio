@@ -433,7 +433,7 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h2",
                 null,
-                "October 2016-February 2017"
+                "Oct 2016-Feb 2017"
               ),
               React.createElement(
                 "h2",

@@ -49,7 +49,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
 
         <div className="job">
           <h1 className="edu-bold bump-down">The Iron Yard</h1>
-          <h2>October 2016-February 2017</h2>
+          <h2>Oct 2016-Feb 2017</h2>
           <h2>Front-End Developer</h2>
           <ul className="lists">
             <li>Worked at the coding boot camp to learn the foundation of front-end development including: HTML5, CSS3, JavaScript and React.</li>
