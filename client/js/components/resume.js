@@ -39,11 +39,9 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
           <h2>May 2017-Present</h2>
           <h2>Web Developer Intern</h2>
           <ul className="lists">
-            <li>Worked on creating a PostCSS plugin to create an internal grid system with team member.</li>
-            <li>Worked on HTML email tempting with MJML for client .
-            </li>
-            <li>Helped with new landing page for website.
-            </li>
+            <li>Worked on localization of website in Craft CMS, twig, and js.</li>
+            <li>Developed webpages, and parts of applications for multiple clients while working with QA, and management.</li>
+            <li>Collaborated with team of 4 developers focused on pixel perfect development, responsive web development, and clean code.</li>
           </ul>
         </div>
 
