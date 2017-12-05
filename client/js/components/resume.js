@@ -40,8 +40,8 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
           <h2>Web Developer Intern</h2>
           <ul className="lists">
             <li>Worked on localization of website in Craft CMS, twig, and js.</li>
-            <li>Developed webpages, and parts of applications for multiple clients while working with QA, and management.</li>
-            <li>Collaborated with team of 4 developers focused on pixel perfect development, responsive web development, and clean code.</li>
+            <li>Developed webpages, and features for multiple clients while working with QA, and management.</li>
+            <li>Worked on pixel perfect, cross browser, and responsive web development.</li>
           </ul>
         </div>
 
