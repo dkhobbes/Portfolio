@@ -39,7 +39,9 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
           <h2>Dec 2017-Present</h2>
           <h2>Web Developer Intern</h2>
           <ul className="lists">
-
+            <li>Developed CMS sites on Wordpress, and worked with Vue.js and Laravel frameworks.</li>
+            <li>Created webpages, sites, and portals from start to finish.</li>
+            <li>Worked on pixel perfect, cross browser, and responsive web development.</li>
           </ul>
         </div>
 
