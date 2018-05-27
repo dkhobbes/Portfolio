@@ -390,12 +390,32 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h1",
                 { className: "edu-bold bump-down" },
+                "Commerce House"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Dec 2017-Present"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "Web Developer Intern"
+              ),
+              React.createElement("ul", { className: "lists" })
+            ),
+            React.createElement(
+              "div",
+              { className: "job" },
+              React.createElement(
+                "h1",
+                { className: "edu-bold bump-down" },
                 "70KFT"
               ),
               React.createElement(
                 "h2",
                 null,
-                "May 2017-Present"
+                "May 2017-Dec 2017"
               ),
               React.createElement(
                 "h2",
@@ -408,17 +428,17 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "li",
                   null,
-                  "Worked on creating a PostCSS plugin to create an internal grid system with team member."
+                  "Worked on localization of website in Craft CMS, Twig, and JS."
                 ),
                 React.createElement(
                   "li",
                   null,
-                  "Worked on HTML email tempting with MJML for client ."
+                  "Developed webpages, and features for multiple clients while working with QA, and management."
                 ),
                 React.createElement(
                   "li",
                   null,
-                  "Helped with new landing page for website."
+                  "Worked on pixel perfect, cross browser, and responsive web development."
                 )
               )
             ),

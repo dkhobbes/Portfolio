@@ -35,8 +35,17 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
       <section className="section-margin">
         <h1 className="space">Work History</h1>
         <div className="job">
+          <h1 className="edu-bold bump-down">Commerce House</h1>
+          <h2>Dec 2017-Present</h2>
+          <h2>Web Developer Intern</h2>
+          <ul className="lists">
+
+          </ul>
+        </div>
+
+        <div className="job">
           <h1 className="edu-bold bump-down">70KFT</h1>
-          <h2>May 2017-Present</h2>
+          <h2>May 2017-Dec 2017</h2>
           <h2>Web Developer Intern</h2>
           <ul className="lists">
             <li>Worked on localization of website in Craft CMS, Twig, and JS.</li>
