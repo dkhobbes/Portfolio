@@ -37,7 +37,7 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
         <div className="job">
           <h1 className="edu-bold bump-down">Commerce House</h1>
           <h2>Dec 2017-Present</h2>
-          <h2>Web Developer Intern</h2>
+          <h2>Front End Developer</h2>
           <ul className="lists">
             <li>Developed CMS sites on Wordpress, and worked with Vue.js and Laravel frameworks.</li>
             <li>Created webpages, sites, and portals from start to finish.</li>
