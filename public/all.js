@@ -400,9 +400,27 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h2",
                 null,
-                "Web Developer Intern"
+                "Front End Developer"
               ),
-              React.createElement("ul", { className: "lists" })
+              React.createElement(
+                "ul",
+                { className: "lists" },
+                React.createElement(
+                  "li",
+                  null,
+                  "Developed CMS sites on Wordpress, and worked with Vue.js and Laravel frameworks."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Created webpages, sites, and portals from start to finish."
+                ),
+                React.createElement(
+                  "li",
+                  null,
+                  "Worked on pixel perfect, cross browser, and responsive web development."
+                )
+              )
             ),
             React.createElement(
               "div",
