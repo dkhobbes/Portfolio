@@ -47,7 +47,7 @@ table {
 
 #banner {
   background-color: #134964;
-  height: 25px;
+  height: 20px;
   width: 100%; }
 
 .nav-tab {
@@ -88,7 +88,7 @@ header div:hover {
 
 .ending-bar {
   width: 960px;
-  border-bottom: 5px solid #134964;
+  border-bottom: 3px solid #134964;
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto; }
@@ -154,8 +154,8 @@ footer img {
 .bump-down {
   margin-top: 30px; }
 
-button {
-  margin: 5px;
+.download {
+  margin: 25px 5px 5px;
   background-color: #134964;
   border: none;
   padding: 15px;
@@ -252,7 +252,8 @@ a:visited button {
   .section-margin-top,
   .section-margin h1 {
     width: 325px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: #e8e8e8; }
   .section-margin li {
     width: 290px; }
   .ending-bar {

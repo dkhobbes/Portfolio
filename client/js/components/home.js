@@ -15,15 +15,14 @@ class HomeComponent extends React.Component {
     </header>
     <section>
       <h1 id="name-holder">DAVID KURTH</h1>
-      <p className="info-me space">Front End Developer</p>
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
         <h1 className="space">Summary</h1>
-        <p>This is my path. Originally an IT Recruiter for over 5 years I have always had an interest in creating and making things. I started out as a Graphic Design student in college for 3 years before I went on to get an Advertising degree. Moving to the Iron Yard has been the best decision to pursue a career in web development. During this 3 month boot camp I built and deployed multiple web applications and learned about responsive design, web standards and agile methodologies. 
+        <p>I'm a Developer with 3 years of exerience working with primarily Front-End Development. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, PHP, Twig, and Responsive Web Design. I am a quick learner, and love to learn.
         </p>
         <h1 className="space">Skills</h1>
-        <p>My skills involve working with GitHub, Terminal, Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass and Responsive Web Design. I am a quick learner, and love to learn. I am currently working on learning more on Express, and mongoDB.</p>
+        <p></p>
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
@@ -40,33 +39,12 @@ class HomeComponent extends React.Component {
         <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
         <a href="https://github.com/dkhobbes/final-project" target="_blank"><button>view code</button></a>
       </div>
-      <div className="length">
-        <div className="project-img">
-
-        <a href="https://blog-books.herokuapp.com/#/" target="_blank">
-        <img src="images/blog-books-image.png" className="project" />
-        </a>
-        </div>
 
 
-        <div className="project-info">
-          <h2>Book Blog Project</h2>
-          <h2>worked with: React.JS, HTML5, CSS3</h2>
-          <a href="https://blog-books.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
-          <a href="https://github.com/dkhobbes/blog-books-final" target="_blank"><button> view code</button></a>
-        </div>
-      </div>
 
-      <div className="project-img">
-      <a href="https://github-user-repos.herokuapp.com/" target="_blank"><img src="images/githubRepo-img.png" className="project" />
-      </a>
-      </div>
-      <div className="project-info">
-        <h2>Github Repo Project</h2>
-        <h2>worked with: React.JS, HTML5, CSS3</h2>
-        <a href="https://github-user-repos.herokuapp.com/" target="_blank"><button>visit website</button></a>
-        <a href="https://github.com/dkhobbes/Github-Repo-project" target="_blank"><button>view code</button></a>
-      </div>
+
+
+
       <div className="ending-bar"></div>
     </section>
     <footer>
