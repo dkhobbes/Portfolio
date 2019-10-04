@@ -19,10 +19,8 @@ class HomeComponent extends React.Component {
     </section>
     <section className="info-me">
         <h1 className="space">Summary</h1>
-        <p>I'm a Developer with 3 years of exerience working with primarily Front-End Development. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, PHP, Twig, and Responsive Web Design. I am a quick learner, and love to learn.
+        <p>I'm a developer with 3 years of exerience working with primarily Front-End Development. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, PHP, Twig, and Responsive Web Design. I am a quick learner and love to learn.
         </p>
-        <h1 className="space">Skills</h1>
-        <p></p>
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
@@ -39,11 +37,6 @@ class HomeComponent extends React.Component {
         <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
         <a href="https://github.com/dkhobbes/final-project" target="_blank"><button>view code</button></a>
       </div>
-
-
-
-
-
 
       <div className="ending-bar"></div>
     </section>

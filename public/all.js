@@ -71,14 +71,8 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "p",
               null,
-              "I'm a Developer with 3 years of exerience working with primarily Front-End Development. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, PHP, Twig, and Responsive Web Design. I am a quick learner, and love to learn."
+              "I'm a developer with 3 years of exerience working with primarily Front-End Development. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, PHP, Twig, and Responsive Web Design. I am a quick learner and love to learn."
             ),
-            React.createElement(
-              "h1",
-              { className: "space" },
-              "Skills"
-            ),
-            React.createElement("p", null),
             React.createElement("div", { className: "ending-bar" })
           ),
           React.createElement(
