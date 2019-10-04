@@ -408,7 +408,7 @@ if (window.Portfolio === undefined) {
                 React.createElement(
                   "li",
                   null,
-                  "Developed CMS sites on Wordpress, and worked with Vue.js and Laravel frameworks."
+                  "Developed CMS sites on Wordpress, and worked with Vue.js."
                 ),
                 React.createElement(
                   "li",
