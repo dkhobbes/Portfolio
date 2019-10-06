@@ -19,7 +19,7 @@ class HomeComponent extends React.Component {
     </section>
     <section className="info-me">
         <h1 className="space">Summary</h1>
-        <p>I'm a developer with 3 years of exerience working with primarily Front-End Development. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, PHP, Twig, and Responsive Web Design. I am a quick learner and love to learn.
+        <p>I'm a developer with 3 years of exerience. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, Wordpress, PHP, Twig, and Responsive Web Design. I am a quick learner and love to learn.
         </p>
       <div className="ending-bar"></div>
     </section>
