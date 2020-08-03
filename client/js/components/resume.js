@@ -40,9 +40,11 @@ if (window.Portfolio === undefined) {window.Portfolio = {}; }
               <h2>Dec 2017-Present</h2>
               <h2>Front End Developer</h2>
               <ul className="lists">
-                <li>Developed CMS sites on Wordpress, and worked with Vue.js.</li>
-                <li>Created webpages, sites, and portals from start to finish.</li>
-                <li>Worked on pixel perfect, cross browser, and responsive web development.</li>
+                <li>Experienced with programming in PHP5, WordPress, Javascript, jQuery, HTML5, CSS3, Vue.JS and Involved in all the stages of the coding, debugging, testing, integration, documentation and maintenance of projects.</li>
+                <li>Developed custom Wordpress theme builds with clean back end interface for client needs.</li>
+                <li>Optimized web assets for optimal speed and performance, and worked with ADA/WCAG compliance for accessibility.</li>
+                <li>Worked on webpages, sites, and portals from start to finish.</li>
+                <li>Worked on cross browser consistency and responsive web development.</li>
               </ul>
             </div>
 
