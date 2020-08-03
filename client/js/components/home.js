@@ -27,18 +27,46 @@ class HomeComponent extends React.Component {
       <h1 className="space">Projects</h1>
 
       <div className="project-img">
-      <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><img src="images/BeerMeFinder-img.png" className="project" />
+      <a href="http://www.sabrered360.com/en/" target="_blank"><img src="images/sabre-red-360.png" className="project" />
       </a>
       </div>
       <div className="project-info">
-        <h2>Beer Me Finder Project</h2>
-        <h2>worked with: React.JS, HTML5, CSS3</h2>
+        <h2>Sabre Red 360 Project</h2>
+        <h2>worked with: PHP, JS, HTML5, CSS3</h2>
         <p> </p>
         <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
-        <a href="https://github.com/dkhobbes/final-project" target="_blank"><button>view code</button></a>
       </div>
 
-      <div className="ending-bar"></div>
+    </section>
+    <section className="info-me">
+
+
+      <div className="project-img">
+      <a href="https://www.parker.edu/" target="_blank"><img src="images/parker.png" className="project" />
+      </a>
+      </div>
+      <div className="project-info">
+        <h2>Parker Project</h2>
+        <h2>worked with: Vue.JS, Wordpress, HTML5, CSS3</h2>
+        <p> </p>
+        <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+      </div>
+
+    </section>
+    <section className="info-me">
+
+
+      <div className="project-img">
+      <a href="https://www.dcmol.com/" target="_blank"><img src="images/donaldson-capital-management.png" className="project" />
+      </a>
+      </div>
+      <div className="project-info">
+        <h2>Donaldson Capital Management Project</h2>
+        <h2>worked with: Wordpress, PHP, JS, HTML5, CSS3</h2>
+        <p> </p>
+        <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+      </div>
+
     </section>
     <footer>
     <a href="https://github.com/dkhobbes" target="_blank"><img src="images/dkurth-portfolio-social-github-white.png" />

@@ -88,8 +88,8 @@ if (window.Portfolio === undefined) {
               { className: "project-img" },
               React.createElement(
                 "a",
-                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
-                React.createElement("img", { src: "images/BeerMeFinder-img.png", className: "project" })
+                { href: "http://www.sabrered360.com/en/", target: "_blank" },
+                React.createElement("img", { src: "images/sabre-red-360.png", className: "project" })
               )
             ),
             React.createElement(
@@ -118,18 +118,90 @@ if (window.Portfolio === undefined) {
                   null,
                   "visit website"
                 )
+              )
+            )
+          ),
+          React.createElement(
+            "section",
+            { className: "info-me" },
+            React.createElement(
+              "div",
+              { className: "project-img" },
+              React.createElement(
+                "a",
+                { href: "https://www.parker.edu/", target: "_blank" },
+                React.createElement("img", { src: "images/parker.png", className: "project" })
+              )
+            ),
+            React.createElement(
+              "div",
+              { className: "project-info" },
+              React.createElement(
+                "h2",
+                null,
+                "Beer Me Finder Project"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "worked with: React.JS, HTML5, CSS3"
+              ),
+              React.createElement(
+                "p",
+                null,
+                " "
               ),
               React.createElement(
                 "a",
-                { href: "https://github.com/dkhobbes/final-project", target: "_blank" },
+                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
                 React.createElement(
                   "button",
                   null,
-                  "view code"
+                  "visit website"
                 )
               )
+            )
+          ),
+          React.createElement(
+            "section",
+            { className: "info-me" },
+            React.createElement(
+              "div",
+              { className: "project-img" },
+              React.createElement(
+                "a",
+                { href: "https://www.dcmol.com/", target: "_blank" },
+                React.createElement("img", { src: "images/donaldson-capital-management.png", className: "project" })
+              )
             ),
-            React.createElement("div", { className: "ending-bar" })
+            React.createElement(
+              "div",
+              { className: "project-info" },
+              React.createElement(
+                "h2",
+                null,
+                "Beer Me Finder Project"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "worked with: React.JS, HTML5, CSS3"
+              ),
+              React.createElement(
+                "p",
+                null,
+                " "
+              ),
+              React.createElement(
+                "a",
+                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
+                React.createElement(
+                  "button",
+                  null,
+                  "visit website"
+                )
+              )
+            )
           ),
           React.createElement(
             "footer",
