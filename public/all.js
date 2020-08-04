@@ -53,11 +53,6 @@ if (window.Portfolio === undefined) {
           React.createElement(
             "section",
             null,
-            React.createElement(
-              "h1",
-              { id: "name-holder" },
-              "DAVID KURTH"
-            ),
             React.createElement("div", { className: "ending-bar" })
           ),
           React.createElement(
@@ -71,7 +66,7 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "p",
               null,
-              "I'm a developer with 3 years of exerience. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, Wordpress, PHP, Twig, and Responsive Web Design. I am a quick learner and love to learn."
+              "I'm a developer with 3 years of exerience. My skills involve working with Gulp, Webpack, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Craft CMS, Wordpress, PHP, Twig, WCAG accessibility compliance, and Responsive Web Design."
             ),
             React.createElement("div", { className: "ending-bar" })
           ),
@@ -86,33 +81,29 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
+              React.createElement("img", { src: "images/sabre-red-360.png", className: "project" })
+            ),
+            React.createElement(
+              "div",
+              { className: "project-info" },
+              React.createElement(
+                "h2",
+                null,
+                "Sabre Red 360 Project"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "worked with: PHP, JS, HTML5, CSS3"
+              ),
+              React.createElement(
+                "p",
+                null,
+                " "
+              ),
               React.createElement(
                 "a",
                 { href: "http://www.sabrered360.com/en/", target: "_blank" },
-                React.createElement("img", { src: "images/sabre-red-360.png", className: "project" })
-              )
-            ),
-            React.createElement(
-              "div",
-              { className: "project-info" },
-              React.createElement(
-                "h2",
-                null,
-                "Beer Me Finder Project"
-              ),
-              React.createElement(
-                "h2",
-                null,
-                "worked with: React.JS, HTML5, CSS3"
-              ),
-              React.createElement(
-                "p",
-                null,
-                " "
-              ),
-              React.createElement(
-                "a",
-                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
                 React.createElement(
                   "button",
                   null,
@@ -127,33 +118,29 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
+              React.createElement("img", { src: "images/parker.png", className: "project" })
+            ),
+            React.createElement(
+              "div",
+              { className: "project-info" },
+              React.createElement(
+                "h2",
+                null,
+                "Parker Project"
+              ),
+              React.createElement(
+                "h2",
+                null,
+                "worked with: Vue.JS, Wordpress, HTML5, CSS3"
+              ),
+              React.createElement(
+                "p",
+                null,
+                " "
+              ),
               React.createElement(
                 "a",
                 { href: "https://www.parker.edu/", target: "_blank" },
-                React.createElement("img", { src: "images/parker.png", className: "project" })
-              )
-            ),
-            React.createElement(
-              "div",
-              { className: "project-info" },
-              React.createElement(
-                "h2",
-                null,
-                "Beer Me Finder Project"
-              ),
-              React.createElement(
-                "h2",
-                null,
-                "worked with: React.JS, HTML5, CSS3"
-              ),
-              React.createElement(
-                "p",
-                null,
-                " "
-              ),
-              React.createElement(
-                "a",
-                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
                 React.createElement(
                   "button",
                   null,
@@ -168,11 +155,7 @@ if (window.Portfolio === undefined) {
             React.createElement(
               "div",
               { className: "project-img" },
-              React.createElement(
-                "a",
-                { href: "https://www.dcmol.com/", target: "_blank" },
-                React.createElement("img", { src: "images/donaldson-capital-management.png", className: "project" })
-              )
+              React.createElement("img", { src: "images/donaldson-capital-management.png", className: "project" })
             ),
             React.createElement(
               "div",
@@ -180,12 +163,12 @@ if (window.Portfolio === undefined) {
               React.createElement(
                 "h2",
                 null,
-                "Beer Me Finder Project"
+                "Donaldson Capital Management Project"
               ),
               React.createElement(
                 "h2",
                 null,
-                "worked with: React.JS, HTML5, CSS3"
+                "worked with: Wordpress, PHP, JS, HTML5, CSS3"
               ),
               React.createElement(
                 "p",
@@ -194,7 +177,7 @@ if (window.Portfolio === undefined) {
               ),
               React.createElement(
                 "a",
-                { href: "https://beer-me-finder.herokuapp.com/#/", target: "_blank" },
+                { href: "https://www.dcmol.com/", target: "_blank" },
                 React.createElement(
                   "button",
                   null,
@@ -382,17 +365,27 @@ if (window.Portfolio === undefined) {
                   React.createElement(
                     "li",
                     null,
-                    "Developed CMS sites on Wordpress, and worked with Vue.js."
+                    "Experienced with programming in PHP5, WordPress, Javascript, jQuery, HTML5, CSS3, Vue.JS and Involved in all the stages of the coding, debugging, testing, integration, documentation and maintenance of projects."
                   ),
                   React.createElement(
                     "li",
                     null,
-                    "Created webpages, sites, and portals from start to finish."
+                    "Developed custom Wordpress theme builds with clean back end interface for client needs."
                   ),
                   React.createElement(
                     "li",
                     null,
-                    "Worked on pixel perfect, cross browser, and responsive web development."
+                    "Optimized web assets for optimal speed and performance, and worked with ADA/WCAG compliance for accessibility."
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    "Worked on webpages, sites, and portals from start to finish."
+                  ),
+                  React.createElement(
+                    "li",
+                    null,
+                    "Worked on cross browser consistency and responsive web development."
                   )
                 )
               ),
@@ -613,16 +606,7 @@ if (window.Portfolio === undefined) {
                   "Bachelor of Arts in Advertising"
                 )
               ),
-              React.createElement("div", { className: "ending-bar" }),
-              React.createElement(
-                "a",
-                { className: "space", href: "/images/DavidKurthResume.pdf", download: "" },
-                React.createElement(
-                  "button",
-                  { className: "download" },
-                  "download"
-                )
-              )
+              React.createElement("div", { className: "ending-bar" })
             )
           ),
           React.createElement(

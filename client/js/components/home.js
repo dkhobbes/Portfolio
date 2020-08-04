@@ -14,12 +14,11 @@ class HomeComponent extends React.Component {
       <div className="nav-tab"><ReactRouter.Link to={'/resume'}>resume</ReactRouter.Link></div>
     </header>
     <section>
-      <h1 id="name-holder">DAVID KURTH</h1>
       <div className="ending-bar"></div>
     </section>
     <section className="info-me">
         <h1 className="space">Summary</h1>
-        <p>I'm a developer with 3 years of exerience. My skills involve working with Gulp, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Wordpress, Craft CMS, Wordpress, PHP, Twig, and Responsive Web Design. I am a quick learner and love to learn.
+        <p>I'm a developer with 3 years of exerience. My skills involve working with Gulp, Webpack, Express, Node.JS, JavaScript, CSS, HTML, React.JS, jQuery, Sass, Vue.JS, Craft CMS, Wordpress, PHP, Twig, WCAG accessibility compliance, and Responsive Web Design.
         </p>
       <div className="ending-bar"></div>
     </section>
@@ -27,14 +26,13 @@ class HomeComponent extends React.Component {
       <h1 className="space">Projects</h1>
 
       <div className="project-img">
-      <a href="http://www.sabrered360.com/en/" target="_blank"><img src="images/sabre-red-360.png" className="project" />
-      </a>
+        <img src="images/sabre-red-360.png" className="project" />
       </div>
       <div className="project-info">
         <h2>Sabre Red 360 Project</h2>
         <h2>worked with: PHP, JS, HTML5, CSS3</h2>
         <p> </p>
-        <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+        <a href="http://www.sabrered360.com/en/" target="_blank"><button>visit website</button></a>
       </div>
 
     </section>
@@ -42,14 +40,13 @@ class HomeComponent extends React.Component {
 
 
       <div className="project-img">
-      <a href="https://www.parker.edu/" target="_blank"><img src="images/parker.png" className="project" />
-      </a>
+        <img src="images/parker.png" className="project" />
       </div>
       <div className="project-info">
         <h2>Parker Project</h2>
         <h2>worked with: Vue.JS, Wordpress, HTML5, CSS3</h2>
         <p> </p>
-        <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+        <a href="https://www.parker.edu/" target="_blank"><button>visit website</button></a>
       </div>
 
     </section>
@@ -57,14 +54,13 @@ class HomeComponent extends React.Component {
 
 
       <div className="project-img">
-      <a href="https://www.dcmol.com/" target="_blank"><img src="images/donaldson-capital-management.png" className="project" />
-      </a>
+        <img src="images/donaldson-capital-management.png" className="project" />
       </div>
       <div className="project-info">
         <h2>Donaldson Capital Management Project</h2>
         <h2>worked with: Wordpress, PHP, JS, HTML5, CSS3</h2>
         <p> </p>
-        <a href="https://beer-me-finder.herokuapp.com/#/" target="_blank"><button>visit website</button></a>
+        <a href="https://www.dcmol.com/" target="_blank"><button>visit website</button></a>
       </div>
 
     </section>
