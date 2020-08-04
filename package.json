@@ -6,6 +6,9 @@
     "start": "node server/server.js",
     "build": "gulp build"
   },
+  "engines": {
+    "node": "11.15.0"
+  },
   "resolutions": {
     "graceful-fs": "4.2.4"
   },
